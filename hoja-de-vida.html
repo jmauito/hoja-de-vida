@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+       html{
+        font-family: 'Roboto', sans-serif;
+       }
+        h2{
+        color:blue;
+       } 
+       .center-title{
+        text-align: center;
+       }
+       .logo-redes-sociales{
+        height: 2rem;
+        width: 2rem;
+        padding: 0.5rem;
+       }
+       .logo-redes-sociales:hover{
+        box-shadow: 1px;
+       }
+       .foto-principal{
+        height: 15rem;
+        width: 15rem;
+        justify-content : center;
+       }
+       .div-foto-principal{
+        display:flex; 
+        justify-content : center;
+       }
+       .caja-redes-sociales{
+        border: 0.5px solid;
+        background-color: antiquewhite;
+        border-radius: 5px;
+       }
+       .div-iconos-redes-sociales{
+        display: flex;
+        justify-content: center;
+       }
+       
+    </style>
+</head>
+<body>
+   <h1 style="text-align: center;" >Mauricio Zárate</h1>
+   <div class="div-foto-principal">
+    <img class="foto-principal" src="foto.jpg" alt="Fotografía de Mauricio Zárate">
+    </div>
+   <p> Ecuador - Cuenca</p>
+   <p>mauricio@mail.com</p>
+
+    <h2>Formación académica</h2>
+    <ul>
+        <li>Universidad Católica de Cuenca</li>
+        <li>Universidad Técnica de Machala</li>
+        <li>MIT</li>
+    </ul>
+
+    <h2>Experiencia laboral</h2>
+    <ul>
+        <li>Profesor de computación</li>
+        <li>Administrador de red</li>
+        <li>Programador</li>
+    </ul>
+
+    <h2>Habilidades técnicas</h2>
+    <ul>
+        <li>PHP</li>
+        <li>Java</li>
+        <li>Javascript</li>
+    </ul>
+    <div class="caja-redes-sociales">
+        <h2 class="center-title">Encuéntrame en las redes sociales</h2>
+        <div class = "div-iconos-redes-sociales">
+        <a href="https://www.facebook.com"> 
+            <img class="logo-redes-sociales" src="logo-fb.webp" alt="" 
+                > 
+        </a>
+        <img class="logo-redes-sociales" src="logo-tw.avif"  alt="">
+        <img class="logo-redes-sociales" src="logo-ln.png" alt="">
+    </div>
+    </div>
+</body>
+</html>
